@@ -1,0 +1,8 @@
+data/tiles/
+data/worldcover/
+data/geo/
+data/climate/
+__pycache__/
+*.pyc
+.DS_Store
+*.log

@@ -1,0 +1,25 @@
+{
+  "n_total": 1200,
+  "n_positive_bare": 600,
+  "features": [
+    "elevation",
+    "slope_deg",
+    "northness",
+    "eastness",
+    "curvature",
+    "roughness",
+    "relief_9x9",
+    "twi_proxy",
+    "annual_precip_mm",
+    "monsoon_precip_mm",
+    "precip_cv",
+    "wind_speed_ms",
+    "temp_mean_c",
+    "dist_river_km"
+  ],
+  "labels": "ESA WorldCover 2021: bare/sparse (60) vs vegetated (10/20/30/40), ~300m-stable sites",
+  "notes": [
+    "Positives: bare/sparse vegetation sites; Negatives: grass/shrub/cropland/tree sites",
+    "Label window 99-105E / 36-42N; spatial CV blocks 0.5 deg"
+  ]
+}
